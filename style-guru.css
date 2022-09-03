@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+}
+body {
+  background-color: #f8f8f8;
+}
+header {
+  background-color: #fff;
+}
+
+header:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+header h1 {
+  padding: 15px 50px;
+  display: inline-block;
+  float: left;
+}
+
+header ul {
+  float: left;
+}
+
+header ul li {
+  padding: 24px 25px;
+  display: inline-block;
+}
+p{
+  padding-top: 5px;
+  font-size: 15px;
+}
+a {
+  text-decoration: none;
+}
+.btn-cetak {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #FF5733;
+  margin-top: 10px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.content {
+  width: 90%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 50px auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.table tr {
+  height: 30px;
+}
+
+.table tr td {
+  padding: 5px 10px;
+}
+
+.table tr td:nth-child(1) {
+  text-align: center;
+}
+.box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 5px 0 25px;
+}
